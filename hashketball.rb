@@ -192,8 +192,7 @@ def big_shoe_rebounds
     team_data[:players].each do |attribute, data|
       if attribute[:player_name] == player_name
      return attribute[:rebounds]
-    #binding.pry
+      end
+    end
   end
-  end
-end
 end
